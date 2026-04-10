@@ -1,5 +1,5 @@
 # login.py
-
+import getpass
 correct_username = "admin"
 correct_password = "12345"
 
@@ -9,7 +9,7 @@ print("=== Secure Login System ===")
 
 while attempts > 0:
     username = input("Username: ")
-    password = input("Password: ")
+    password = getpass.getpass("Password: ")
 
     if username == correct_username and password == correct_password:
         print("Access Granted ✅")
