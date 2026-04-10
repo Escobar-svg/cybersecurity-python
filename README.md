@@ -9,3 +9,4 @@ Simple login checker with attempt limit.
 
 ## Author
 escober-vg
+information is power
